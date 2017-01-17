@@ -1,0 +1,60 @@
+<html>
+
+<head>
+    <title>Github挂件</title>
+    <link rel="stylesheet" href="css/github-repo.css" type="text/css" />
+    <link rel="stylesheet" href="http://apps.bdimg.com/libs/fontawesome/4.4.0/css/font-awesome.css" />
+    <script src="js/jquery1.8.2.min.js" type="text/javascript"></script>
+    <script src="js/github-repo.js" type="text/javascript"></script>
+    <style>
+
+        .cell {
+            width: 300px;
+            display:inline-table;
+            margin-bottom: 10px;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="test" class="cell"></div>
+    <div id="test1" class="cell"></div>
+    <div id="test2" class="cell"></div>
+    <div id="test3" class="cell"></div>
+    <div id="test4" class="cell"></div>
+    <div id="test5" class="cell"></div>
+<script>
+
+    $(function(){
+
+        $("#test").githubRepo({
+            user: 'kiritor',
+            repo: 'socialShare'
+        });
+        $("#test1").githubRepo({
+            user: 'kiritor',
+            repo: 'HR'
+        });
+        $("#test2").githubRepo({
+            user: 'kiritor',
+            repo: 'MyLoveReader'
+        });
+        $("#test3").githubRepo({
+            user: 'kiritor',
+            repo: 'hexo-theme-yilia-l'
+        });
+        $("#test4").githubRepo({
+            user: 'kiritor',
+            repo: 'golang_web'
+        });
+
+        $("#test5").githubRepo({
+            user: 'kiritor',
+            repo: 'jianux_core'
+        });
+
+    });
+
+</script>
+</body>
+</html>
